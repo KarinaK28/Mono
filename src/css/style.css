@@ -287,10 +287,12 @@ img {
     column-gap: 10px;
     @media screen and (max-width: 768x) {
         margin-top: 40px;
+        flex-wrap: wrap;
+        row-gap: 40px;
         }
     @media screen and (max-width: 375px) {
         margin-top: 20px;
-        display: block;
+        row-gap: 20px;
         }
 }
 
@@ -377,7 +379,6 @@ img {
     color: var(--dark-color);
     @media screen and (max-width: 768px) {
         width: 100%;
-        margin-top: 40px ;
     }
     @media screen and (max-width: 576px) {
         font-size: 12px;
